@@ -1,0 +1,225 @@
+Synthesizing 7/10 solutions
+
+=======
+
+)
+from nequip.nn._graph_mixin import GraphModuleMixin
+import torch
+import torch.nn as nn
+from torch.nn import functional as F
+
+=======
+
+)
+from nequip.nn._graph_mixin import GraphModuleMixin
+import torch
+from torch import nn
+from typing import Optional
+
+=======
+
+)
+from nequip.nn._graph_mixin import GraphModuleMixin
+
+import torch
+from torch import nn
+from torch.nn import functional as F
+
+=======
+
+)
+from nequip.nn._graph_mixin import GraphModuleMixin
+import torch
+import numpy as np
+import torch.nn as nn
+import torch.nn.functional as F
+from torch.nn import Sequential, Linear, ReLU, GRU
+from torch_geometric.nn import MessagePassing
+from torch.nn import Sequential as Seq, Linear as Lin, ReLU
+from torch_geometric.nn import MessagePassing
+from torch_geometric.utils import softmax
+from torch_geometric.nn import global_mean_pool as gap, global_max_pool as gmp
+from torch_geometric.nn import global_add_pool as gadd
+from torch_geometric.nn import global_mean_pool as gap, global_max_pool as gmp
+from torch_geometric.nn import global_add_pool as gadd
+from torch_geometric.nn import SAGEConv
+from torch_geometric.nn import GCNConv
+from torch_geometric.nn import GATConv
+from torch_geometric.nn import GINConv
+from torch_geometric.nn import ChebConv
+from torch_geometric.nn import NNConv
+from torch_geometric.nn import JumpingKnowledge
+from torch_geometric.nn import global_mean_pool as gap, global_max_pool as gmp
+from torch_geometric.nn import global_add_pool as gadd
+from torch_geometric.nn import global_mean_pool as gap, global_max_pool as gmp
+from torch_geometric.nn import global_add_pool as gadd
+from torch_geometric.nn import global_mean_pool as gap, global_max_pool as gmp
+from torch_geometric.nn import global_add_pool as gadd
+from torch_geometric.nn import global_mean_pool as gap, global_max_pool as gmp
+from torch_geometric.nn import global_add_pool as gadd
+from torch_geometric.nn import global_mean_pool as gap, global_max_pool as gmp
+from torch_geometric.nn import global_add_pool as gadd
+from torch_geometric.nn import global_mean_pool as gap, global_max_pool as gmp
+from torch_geometric.nn import global_add_pool as gadd
+from torch_geometric.nn import global_mean_pool as gap, global_max_pool as gmp
+from torch_geometric.nn import global_add_pool as gadd
+from torch_geometric.nn import global_mean_pool as gap, global_max_pool as gmp
+from torch_geometric.nn import global_add_pool as gadd
+from torch_geometric.nn import global_mean_pool as gap, global_max_pool as gmp
+
+=======
+
+)
+from nequip.nn._graph_mixin import GraphModuleMixin
+import torch
+from torch import nn
+from torch.nn import functional as F
+import numpy as np
+from typing import Optional, Union, List, Dict, Any, Tuple, Sequence, Callable
+from nequip.data import AtomicDataDict, AtomicDataset
+from nequip.nn import (
+    SequentialGraphNetwork,
+    AtomwiseLinear,
+    AtomwiseReduce,
+    ConvNetLayer,
+)
+from nequip.nn._graph_mixin import GraphModuleMixin
+import torch
+from torch import nn
+from torch.nn import functional as F
+import numpy as np
+from typing import Optional, Union, List, Dict, Any, Tuple, Sequence, Callable
+from torch import Tensor
+from torch_geometric.typing import Adj, Size, OptTensor
+from torch_geometric.nn.conv import MessagePassing
+from torch_geometric.utils import softmax
+from torch_geometric.nn.inits import glorot, zeros
+from torch_geometric.nn.conv import MessagePassing
+from e3nn.nn import GatedBlock
+from e3nn.nn import GatedBlock
+from e3nn.o3 import Linear
+from nequip.data import AtomicDataDict
+from nequip.data.transforms import TypeMapper
+from nequip.nn import GraphModuleMixin
+from nequip.nn._graph_mixin import GraphModuleMixin
+from torch import nn
+from torch.nn import functional as F
+import numpy as np
+from typing import Optional, Union, List, Dict, Any, Tuple, Sequence, Callable
+from torch import Tensor
+from torch_geometric.typing import Adj, Size, OptTensor
+from torch_geometric.nn.conv import MessagePassing
+from torch_geometric.utils import softmax
+from torch_geometric.nn.inits import glorot, zeros
+from torch_geometric.nn.conv import MessagePassing
+from e3nn.nn import GatedBlock
+from e3nn.nn import GatedBlock
+from e3nn.o3 import Linear
+from nequip.data import AtomicDataDict
+from nequip.data.transforms import TypeMapper
+from nequip.nn import GraphModuleMixin
+from nequip.nn._graph_mixin import GraphModuleMixin
+from torch import nn
+from torch.nn import functional as F
+import numpy as np
+from typing import Optional, Union, List, Dict, Any, Tuple, Sequence, Callable
+from torch import Tensor
+from torch_geometric.typing import Adj, Size, OptTensor
+
+=======
+
+)
+from nequip.nn import AtomwiseOperation, AtomwiseLinear, AtomwiseReduce
+from nequip.nn import GraphModuleMixin
+import torch
+from typing import Optional
+
+=======
+
+)
+from nequip.nn import GraphModuleMixin
+from torch import nn
+import torch
+import torch.nn.functional as F
+from nequip.data.transforms import TypeMapper
+from nequip.nn import GraphModuleMixin, SequentialGraphNetwork
+from nequip.nn import (
+    AtomwiseLinear,
+    AtomwiseReduce,
+    AtomwiseOperation,
+    ConvNetLayer,
+)
+from nequip.nn import GraphModuleMixin, SequentialGraphNetwork
+from nequip.nn import (
+    AtomwiseLinear,
+    AtomwiseReduce,
+    AtomwiseOperation,
+    ConvNetLayer,
+)
+from nequip.nn import GraphModuleMixin, SequentialGraphNetwork
+from nequip.nn import (
+    AtomwiseLinear,
+    AtomwiseReduce,
+    AtomwiseOperation,
+    ConvNetLayer,
+)
+from nequip.nn import GraphModuleMixin, SequentialGraphNetwork
+from nequip.nn import (
+    AtomwiseLinear,
+    AtomwiseReduce,
+    AtomwiseOperation,
+    ConvNetLayer,
+)
+from nequip.nn import GraphModuleMixin, SequentialGraphNetwork
+from nequip.nn import (
+    AtomwiseLinear,
+    AtomwiseReduce,
+    AtomwiseOperation,
+    ConvNetLayer,
+)
+from nequip.nn import GraphModuleMixin, SequentialGraphNetwork
+from nequip.nn import (
+    AtomwiseLinear,
+    AtomwiseReduce,
+    AtomwiseOperation,
+    ConvNetLayer,
+)
+from nequip.nn import GraphModuleMixin, SequentialGraphNetwork
+from nequip.nn import (
+    AtomwiseLinear,
+    AtomwiseReduce,
+    AtomwiseOperation,
+    ConvNetLayer,
+)
+from nequip.nn import GraphModuleMixin, SequentialGraphNetwork
+from nequip.nn import (
+    AtomwiseLinear,
+    AtomwiseReduce,
+    AtomwiseOperation,
+    ConvNetLayer,
+)
+from nequip.nn import GraphModuleMixin, SequentialGraphNetwork
+from nequip.nn import (
+    AtomwiseLinear,
+    AtomwiseReduce,
+    AtomwiseOperation,
+    ConvNetLayer,
+)
+from nequip.nn import GraphModuleMixin, SequentialGraphNetwork
+from nequip.nn import (
+    AtomwiseLinear,
+    AtomwiseReduce,
+    AtomwiseOperation,
+    ConvNetLayer,
+)
+from nequip.nn import GraphModuleMixin, SequentialGraphNetwork
+from nequip.nn import (
+    AtomwiseLinear,
+    AtomwiseReduce,
+    AtomwiseOperation,
+    ConvNetLayer,
+)
+from nequip.nn import GraphModuleMixin, SequentialGraphNetwork
+from nequip.nn import (
+    AtomwiseLinear,
+    Atom
